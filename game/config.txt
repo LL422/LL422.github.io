@@ -1,0 +1,6 @@
+Game_name:It's MyMujica!!!!!;
+Game_key:0f87dstRg;
+Title_img:I（舞台）/I2.png;
+Title_bgm:s_Title.mp3;
+Game_Logo:I（舞台）/I1.png;
+Description:Fan made visual novel;

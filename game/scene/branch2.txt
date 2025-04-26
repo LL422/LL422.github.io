@@ -1,0 +1,50 @@
+changeBg:none;
+changeFigure: -right -id=sakiko;
+intro:Sakiko already has the members of Ave Mujica in mind.|This time, she's determined to build a band that can truly last.|And one day, in a cafe... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -userForward;
+intro: -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+: -fontSize=default;
+changeBg:N（主角相关工作地点）/N1.png;
+changeFigure:uika/casual/model.json -left -id=uika -transform={"position":{"x":-300,"y":-200},"scale":{"x":0.9,"y":0.9}} -motion=uika_smile01 -expression=uika_smile01;
+changeFigure:sakiko/casual/model.json -right -id=sakiko -transform={"position":{"x":300,"y":-200},"scale":{"x":0.9,"y":0.9}} -motion=sakiko_smile01 -expression=sakiko_smile01;
+Sakiko:You've been really busy since your debut, haven’t you? Sumimi seems to be doing quite well lately. -fontSize=default;
+changeFigure:uika/casual/model.json -left -id=uika -transform={"position":{"x":300,"y":-200},"scale":{"x":0.9,"y":0.9}} -motion=uika_surprised01 -expression=uika_smile01;
+Uika:Saki-chan! You messaged me all of a sudden—I thought you might’ve forgotten about me… -fontSize=default;
+Uika: Yeah, my schedule’s been pretty packed recently.
+changeFigure:sakiko/casual/model.json -right -id=sakiko -motion=sakiko_smile03 -expression=sakiko_smile06;
+Sakiko: Of course I haven’t. -fontSize=default;
+Sakiko:We’ve known each other for over ten years, after all. -fontSize=default -id;
+changeFigure:uika/casual/model.json -left -id=uika -motion=uika_nnf05 -expression=umiri_smile02;
+Uika: That’s true… Though you’re not exactly the type to reach out first.
+changeFigure:sakiko/casual/model.json -right -id=sakiko -motion=sakiko_serious01 -expression=sakiko_smile01;
+Sakiko: Fair enough. But this time, I have something I’d like your help with.
+changeFigure:sakiko/casual/model.json -id=sakiko -motion=sakiko_serious01 -expression=sakiko_serious01;
+Sakiko: I’m putting together a new band. I want you to join as vocalist and guitarist.
+changeFigure:uika/casual/model.json -id=uika -motion=uika_surprised01 -expression=uika_surprised01;
+Uika: Eh? Didn’t you already have a band called CRYCHIC?
+changeFigure:sakiko/casual/model.json -id=sakiko -motion=sakiko_serious02 -expression=sakiko_serious02;
+Sakiko: That’s in the past.
+Sakiko: This is something different.
+Sakiko: We’ll wear masks, keep our identities hidden.
+Sakiko: It won’t interfere with your work in Sumimi.
+changeFigure:uika/casual/model.json -id=uika -motion=uika_serious01 -expression=uika_serious01;
+Uika: I'm a little curious… Why are you starting a new band now?
+changeFigure:sakiko/casual/model.json -id=sakiko -motion=sakiko_sigh01 -expression=sakiko_sigh01;
+Sakiko: I want to build a band that doesn’t rely on emotional ties.
+Sakiko: The members don’t need to be friends—just focused, skilled, and disciplined.
+Sakiko:I came to you because you’re someone I can count on. -fontSize=default -left;
+changeFigure:uika/casual/model.json -id=uika -motion=uika_idle01 -expression=uika_sad01;
+Uika:...You’re being really serious. That’s not quite the Saki I remember. -fontSize=default -left;
+changeFigure:sakiko/casual/model.json -id=sakiko -motion=sakiko_sigh02 -expression=sakiko_serious01;
+Sakiko: We were close when we were kids, sure.
+Sakiko: But I’m not looking for childhood friends this time.
+Sakiko: I’m looking for someone who’ll take the stage seriously.
+changeFigure:uika/casual/model.json -id=uika -motion=uika_serious01 -expression=uika_serious01;
+Uika:...If it’s just about performing, I can do that. -fontSize=default -left;
+Uika: I won’t get in your way—and Sumimi won’t be affected.
+changeFigure:sakiko/casual/model.json -id=sakiko -motion=sakiko_serious01 -expression=sakiko_smile06;
+Sakiko: Good. You’re the vocalist I chose for your ability—
+Sakiko: Not just because of our past.
+changeFigure:uika/casual/model.json -id=uika -motion=uika_smile01 -expression=uika_smile01;
+Uika: That really does sound like you, Saki-chan.
+Uika: Well then… let’s make it work.
+changeScene:branch2cont1.txt
